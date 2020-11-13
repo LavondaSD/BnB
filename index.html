@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Beauty On The Beat</title>
+  <meta charset="utf-8">
+  <meta id="viewport" content="width=device-width, initial-scale=1">
+  <meta name="index" content="index.html
+
+<!-- Carousel Stylyesheet -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<!-- link href="" rel="stylesheet" type="text/css"-->
+
+<!-- Font Family-->
+
+
+<!-- Favicon -->
+
+<style>
+
+/* Color Palette, navy - #192841, coral - #f08080, champagne - # */
+    /* Remove navbardefault margin-bottom and rounded borders */ 
+
+.navbar {
+	background-color: transparent;
+	text-color: #f88379;
+	width: 100%;
+	font-family: 'Billy Ohio', cursive;
+	font-size: 15px;
+	margin: 2px;
+	padding: 2px;
+	text-align: center;
+	border-right: 1px solid #bbb;
+	position: fixed;
+  	top: 0;	
+}
+
+li {
+	float: left;
+	padding: 5px;
+	list-style-type: none;
+}
+
+.nabvar:hover {
+	text-color: #000;
+  	font-family: 'Billy Ohio', cursive;
+	font-size: 15px;
+}
+
+body {
+
+background: linear-gradient: rgba(#AE8625, #f7ef8a, #AE8625);
+background: -webkit-linear-gradient(120deg, #AE8625, #f7ef8a, #AE8625); background: linear-gradient(120deg, #AE8625, #f7ef8a, #AE8625);
+	}
+
+h1 {
+  color: #f08080;
+  outline: 1px white;
+  text-shadow: 1px 1px 3px #192841;
+  text-align: center;
+  font-family: 'Billy Ohio', cursive;
+  font-size: 45px;
+}
+
+p {
+  color: #000;
+  text-align: center;
+  font-family: 'Billy Ohio', cursive;
+  font-size: 30px;
+  text-shadow: 1px 1 x 3px #003366;
+}
+
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: auto;) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+/* Add a black background color and some padding to the footer */
+    
+footer {
+	text-color: #000;
+    	padding: 25px;
+	font-size: 22px;
+	font-family: 'Billy Ohio', cursive;
+	text-align: center;
+
+    }
+</style>
+
+<!-- navbar -->
+
+    <div class="navbar" style="list-style-type: none;">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        
+	   <li class="btn-active"><a href="index.html" style="font-size: 20px;">Home</a></li>
+
+        <li class="btn"><a href="hair.html" style="font-size: 20px;">Hair</a></li>
+
+        <li class="btn"><a href="cosmo.html" style="font-size: 20px;">Cosmetics</a></li>                       
+
+	   <li class="btn"><a href="beauserv.html" style="font-size: 20px;">Beauty Services</a></li>
+        
+	   <li class="btn"><a href="apparel.html" style="font-size: 20px;">Apparel</a></li>
+
+	   <li class="btn"><a href="ccess.html" style="font-size: 20px;">Accessories</a></li>
+
+	   <li class="btn"><a href=Custocare.html" style="font-size: 20px;">Custom Care</a></li>
+
+	<li class="btn" style="float:right;"><a href=checkout.html" style="font-size: 20px;">Cart</a></li>
+
+    <div class="collapse navbar-collapse" id="myNavbar">    </div>
+  </div>
+
+</head>
+
+<body>
+
+
+
+      <div class="container text-center">
+      <img src="images\" style="box-shadow: 2px 2px 10px #D6C432; width:35%; height:30%;" alt="Image">
+          <br>
+          <h1>Our Vision</h1>
+          <p>Vision. . . . .</ p>
+      </div>
+
+  
+<div class="container text-center">
+        <img src="images\" style="box-shadow: 2px 2px 10px #D6C432; width:35%; height:30%;" alt="Image">
+          <br>
+		<h1>Our Mission</h1>
+          <p>Mission. . . . . </p>
+    </div>
+
+  
+<div class="container text-center">
+      <img src="images/" class="img-responsive" alt="">
+  	<br>
+	<h1>Our Value</h1>
+  	<p>Creating. . . . .</P>
+    </div>
+  
+
+<div class="footer">
+<footer class="container-fluid text-center">
+  <p>&nbsp;</p>
+  <p2>Get Slayed In A Beat, With Beauty On The Beat!<br>.. The Wait Is Over!
+</p2> 
+  <br> 
+  <hr>    
+  <p2>&copyBeauty On The Beat</p2>
+</footer>
+</div>
+
+<!-- JAVASCRIPT CODE -->
+<!--jquery required for scrolling effect -->
+<script src="js/jquery.js"></script>
+<!-- Scrolling navigation script by Geo Miller glmiller@pic.fsu.edu -->  
+<script type='text/javascript'>
+jQuery(document).ready(function () {
+  jQuery('.button').click(function() {
+    targetName = jQuery(this).attr('href');
+    targetLocation = jQuery(targetName).offset().top;
+    jQuery('html, body').animate({scrollTop:targetLocation}, 'slow');
+    return false;
+  });
+});
+</script>
+
+
+</body>
+</html>
